@@ -101,7 +101,7 @@ const App = () => {
   } = theme.useToken();
   return (
     <Layout hasSider>
-      <Header className="header" style={{ position: 'fixed', width: '100%', zIndex: '10000' }}>
+      <Header className="header" style={{ position: 'relative', width: '100%', zIndex: '10000' }}>
         <Row>
           <Col span={4}>
             <div className="logo" />
